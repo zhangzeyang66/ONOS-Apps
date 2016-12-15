@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1481770246008
+Build-Jdk: 1.8.0_101
+Built-By: zzy
+Bundle-Blueprint: OSGI-INF/blueprint/shell-config.xml
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: zzy-fwd
+Bundle-SymbolicName: net.fnlab.zzy-fwd
+Bundle-Version: 1.7.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: net.fnlab.fwd;uses:="org.apache.karaf.shell.commands,org
+ .onosproject.cfg,org.onosproject.cli,org.onosproject.core,org.onosproje
+ ct.net,org.onosproject.net.apps,org.onosproject.net.flow,org.onosprojec
+ t.net.flowobjective,org.onosproject.net.host,org.onosproject.net.packet
+ ,org.onosproject.net.topology,org.osgi.service.component";version="1.7.
+ 0"
+Import-Package: 
+ com.google.common.collect;version="[19.0,20)",
+ org.apache.karaf.shell.commands;version="[3.0,4)",
+ org.onlab.packet;version="[1.7,2)",
+ org.onlab.util;version="[1.7,2)",
+ org.onosproject.cfg;version="[1.7,2)",
+ org.onosproject.cli;version="[1.7,2)",
+ org.onosproject.cli.net;version="[1.7,2)",
+ org.onosproject.core;version="[1.7,2)",
+ org.onosproject.event;version="[1.7,2)",
+ org.onosproject.net;version="[1.7,2)",
+ org.onosproject.net.apps;version="[1.7,2)",
+ org.onosproject.net.flow;version="[1.7,2)",
+ org.onosproject.net.flow.criteria;version="[1.7,2)",
+ org.onosproject.net.flow.instructions;version="[1.7,2)",
+ org.onosproject.net.flowobjective;version="[1.7,2)",
+ org.onosproject.net.host;version="[1.7,2)",
+ org.onosproject.net.link;version="[1.7,2)",
+ org.onosproject.net.packet;version="[1.7,2)",
+ org.onosproject.net.topology;version="[1.7,2)",
+ org.osgi.service.blueprint;version="[1.0.0,2.0.0)",
+ org.osgi.service.component;version="[1.2,2)",
+ org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/net.fnlab.fwd.ReactiveForwarding.xml
+Tool: Bnd-3.0.0.201509101326
