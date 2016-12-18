@@ -22,7 +22,6 @@ import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
 import org.onosproject.cli.AbstractShellCommand;
 import org.onosproject.net.HostId;
-import org.onosproject.net.apps.ForwardingMapService;
 
 /**
  * A demo service that lists the endpoints for which flows are installed.

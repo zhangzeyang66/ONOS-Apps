@@ -14,10 +14,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="zzy-fwd-1.7.0-SNAPSHOT">
-    <feature name="zzy-fwd" version="1.7.0-SNAPSHOT"
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="zzy-fwd-1.7.0">
+    <feature name="zzy-fwd" version="1.7.0"
              description="Fwd Readme">
         <feature>onos-api</feature>
-        <bundle>mvn:net.fnlab/zzy-fwd/1.7.0-SNAPSHOT</bundle>
+        <bundle>mvn:net.fnlab/zzy-fwd/1.7.0</bundle>
     </feature>
 </features>

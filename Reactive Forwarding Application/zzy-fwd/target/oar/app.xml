@@ -14,10 +14,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<app name="net.fnlab.fwd" origin="fnlab" version="1.7.0-SNAPSHOT"
+<app name="net.fnlab.fwd" origin="fnlab" version="1.7.0"
         title="net.fnlab.fwd" category="Traffic Steering" url="http://onosproject.org"
-        featuresRepo="mvn:net.fnlab/zzy-fwd/1.7.0-SNAPSHOT/xml/features"
+        featuresRepo="mvn:net.fnlab/zzy-fwd/1.7.0/xml/features"
         features="zzy-fwd" apps="">
     <description>Fwd Readme</description>
-    <artifact>mvn:net.fnlab/zzy-fwd/1.7.0-SNAPSHOT</artifact>
+    <artifact>mvn:net.fnlab/zzy-fwd/1.7.0</artifact>
 </app>

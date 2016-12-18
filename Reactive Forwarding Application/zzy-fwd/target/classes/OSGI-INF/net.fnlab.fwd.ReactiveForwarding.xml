@@ -2,7 +2,7 @@
 <scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="net.fnlab.fwd.ReactiveForwarding" activate="activate" deactivate="deactivate" modified="modified">
     <implementation class="net.fnlab.fwd.ReactiveForwarding"/>
     <service servicefactory="false">
-        <provide interface="org.onosproject.net.apps.ForwardingMapService"/>
+        <provide interface="net.fnlab.fwd.ForwardingMapService"/>
     </service>
     <property name="packetOutOnly" type="Boolean" value="false"/>
     <property name="packetOutOfppTable" type="Boolean" value="false"/>

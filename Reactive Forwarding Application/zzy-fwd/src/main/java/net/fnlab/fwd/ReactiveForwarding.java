@@ -74,7 +74,6 @@ import org.onosproject.net.topology.TopologyListener;
 import org.onosproject.net.topology.TopologyService;
 import org.osgi.service.component.ComponentContext;
 
-import org.onosproject.net.apps.ForwardingMapService;
 import org.slf4j.Logger;
 
 import java.util.Collections;
