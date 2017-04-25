@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1493011872252
+Build-Jdk: 1.8.0_101
+Built-By: zzy
+Bundle-Blueprint: OSGI-INF/blueprint/shell-config.xml
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: intercept
+Bundle-SymbolicName: net.fnlab.intercept
+Bundle-Version: 1.7.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: net.fnlab;uses:="org.apache.karaf.shell.commands,org.ono
+ sproject.cfg,org.onosproject.cli,org.onosproject.core,org.onosproject.n
+ et.device,org.onosproject.net.flow,org.onosproject.net.flowobjective,or
+ g.osgi.service.component";version="1.7.0"
+Import-Package: 
+ org.apache.karaf.shell.commands;version="[3.0,4)",
+ org.onlab.packet;version="[1.7,2)",
+ org.onlab.util;version="[1.7,2)",
+ org.onosproject.cfg;version="[1.7,2)",
+ org.onosproject.cli;version="[1.7,2)",
+ org.onosproject.core;version="[1.7,2)",
+ org.onosproject.net;version="[1.7,2)",
+ org.onosproject.net.device;version="[1.7,2)",
+ org.onosproject.net.flow;version="[1.7,2)",
+ org.onosproject.net.flowobjective;version="[1.7,2)",
+ org.osgi.service.blueprint;version="[1.0.0,2.0.0)",
+ org.osgi.service.component;version="[1.2,2)",
+ org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/net.fnlab.Intercept.xml
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/zzy/intercept/src/main/java/net/fnlab/DeleteInterceptCommand.java">
+</file>
+<file name="/home/zzy/intercept/src/main/java/net/fnlab/InterceptCommand.java">
+</file>
+<file name="/home/zzy/intercept/src/main/java/net/fnlab/package-info.java">
+</file>
+<file name="/home/zzy/intercept/src/main/java/net/fnlab/Intercept.java">
+<error line="63" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="66" column="38" severity="warning" message="Variable &apos;cfgService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="69" column="31" severity="warning" message="Variable &apos;flowRuleService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="72" column="36" severity="warning" message="Variable &apos;flowObjectiveService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="75" column="29" severity="warning" message="Variable &apos;deviceService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="93" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="103" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="112" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/zzy/intercept/src/main/java/net/fnlab/InterceptService.java">
+<error line="7" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="8" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>
